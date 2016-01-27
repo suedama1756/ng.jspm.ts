@@ -1,0 +1,11 @@
+# package folders
+node_modules/
+src/jspm/
+typings/
+
+# output folder
+dist/
+
+# temporary files
+*.swp
+npm-debug.log

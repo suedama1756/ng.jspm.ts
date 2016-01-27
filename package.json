@@ -1,0 +1,32 @@
+{
+  "name": "appname",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle-vendor": "jspm bundle angular ./dist/js/vendor.js",
+    "bundle-app": "jspm bundle app/main - angular ./dist/js/appname.js"
+  },
+  "author": "Jason Young",
+  "license": "UNLICENCED",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "jspm": "0.16.15",
+    "tsd": "^0.6.5"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src",
+      "packages": "src/jspm"
+    },
+    "configFile": "src/jspm.config.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.9"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "../dist/appname.js",
+        "sourceMap": true
+    },  
+    "exclude": [
+        "node_modules",
+        "jspm_packages"
+    ]
+}
