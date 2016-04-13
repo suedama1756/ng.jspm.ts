@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 	autoPrefixer = require('gulp-autoprefixer');
 
 function sass(config) {
-	console.log('logging');
+	// set sass options
 	var sassOptions = config.isRelease ? {
 		sourceMapEmbed : true,
 		sourceMapContents : true,
@@ -17,12 +17,23 @@ function sass(config) {
 		outputStyle : 'nested'
 	};
 
+	// generate output file name
+	var sassOutputFilename = config.pkg.name +
+		'-' +
+		config.pkg.version +
+		'.css';
+
+	// update bundle information
+	config.bundle = config.bundle || {};
+	config.bundle.sassOutputPath = config.paths.dist('assets',
+		sassOutputFilename);
+
 	gulp.task('build:sass:core', cb => {
 		return gulp.src(config.paths.assets('sass', 'main.scss'))
 			.pipe(gulpSass(sassOptions)
 				.on('error', gulpSass.logError))
 			.pipe(autoPrefixer('last 2 versions', '> 1%'))
-			.pipe(rename(config.pkg.name + '.css'))
+			.pipe(rename(sassOutputFilename))
 			.pipe(gulp.dest(config.paths.dist('assets')));
 	});
 

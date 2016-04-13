@@ -23,15 +23,19 @@ var paths = {
 // read package
 var pkg = JSON.parse(fs.readFileSync(rootPath('package.json')));
 
+var isRelease = args('config', 'debug') === 'release';
+
 // define config
 var config = {
 	config : args('config', 'debug'),
-	isRelease : args('config', 'debug') === 'release',
-	watch : args('watc	h', false),
+	isRelease : isRelease,
+	watch : args('watch', false),
 	paths : paths,
 	pkg : pkg,
 	bundle : {
-		'no-mangle' : args('bundle.no-mangle', false)
+		'no-mangle' : args('bundle.no-mangle', isRelease ? 
+			false : 
+			true)
 	}
 }
 
