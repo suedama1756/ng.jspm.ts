@@ -11,9 +11,10 @@ function sass(config) {
 	console.log('logging');
 	var sassOptions = config.isRelease ? {
 		sourceMapEmbed : true,
-		sourceMapContents : true
-	} : {
+		sourceMapContents : true,
 		outputStyle : 'compressed'
+	} : {
+		outputStyle : 'nested'
 	};
 
 	gulp.task('build:sass:core', cb => {

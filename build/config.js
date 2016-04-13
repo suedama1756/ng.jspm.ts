@@ -27,7 +27,7 @@ var pkg = JSON.parse(fs.readFileSync(rootPath('package.json')));
 var config = {
 	config : args('config', 'debug'),
 	isRelease : args('config', 'debug') === 'release',
-	watch : args('watch', false),
+	watch : args('watc	h', false),
 	paths : paths,
 	pkg : pkg,
 	bundle : {
