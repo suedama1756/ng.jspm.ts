@@ -28,7 +28,7 @@ function sass(config) {
 	config.bundle.sassOutputPath = config.paths.dist('assets',
 		sassOutputFilename);
 
-	gulp.task('build:sass:core', cb => {
+	gulp.task('build:sass:core', () => {
 		return gulp.src(config.paths.assets('sass', 'main.scss'))
 			.pipe(gulpSass(sassOptions)
 				.on('error', gulpSass.logError))

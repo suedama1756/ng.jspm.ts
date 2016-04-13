@@ -8,6 +8,7 @@ var config = require('./config'),
 [
 	'build',
 	'bundle',
+	'test',
 	'clean',
 	'host'
 ].forEach(x => {
