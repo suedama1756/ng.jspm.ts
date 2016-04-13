@@ -1,14 +1,19 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "system",
         "noImplicitAny": false,
         "removeComments": true,
         "preserveConstEnums": true,
-        "out": "../dist/appname.js",
-        "sourceMap": true
+        "outDir": "jspm",
+        "sourceRoot" : "/js",
+        "sourceMap" : true,
+        "target" : "ES5",
+        "forceConsistentCasingInFileNames" : true
     },  
     "exclude": [
         "node_modules",
-        "jspm_packages"
+        "typings/browser",
+        "typings/browser.d.ts",
+        "jspm"
     ]
 }

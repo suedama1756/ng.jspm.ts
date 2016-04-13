@@ -1,14 +1,24 @@
-var gulp = require('gulp'),
-	express = require('express');
+'use strict';
 
-gulp.task('host', function() {
-	var app = express(),
-		server;
-	
-	app.use('/', express.static('../'));
-	app.use('/src/system.js', express.static('../jspm_packages/system.js'));
-	app.use('/src/jspm.config.js', express.static('../jspm.config.js'));
-	server = app.listen(8080, function() {
-		console.log(server.address().port);
-	});
+var config = require('./config'),
+	gulp = require('gulp'),
+	taskListing = require('gulp-task-listing');
+
+// import tasks
+[
+	'build',
+	'bundle',
+	'clean',
+	'host'
+].forEach(x => {
+	require('./tasks/' + x)(config);
 });
+
+// confgure default
+gulp.task('default', [
+	'host',
+	'build'
+]);
+
+// configure help
+gulp.task('help', taskListing);

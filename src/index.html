@@ -2,15 +2,15 @@
 <html>
 <head>
 	<title>AppName</title>
-	<script type="text/javascript" src="system.js"></script>
-	<script type="text/javascript" src="jspm.config.js"></script>
+	<!-- build:js -->
+	<script type="text/javascript" src="modules/system.js"></script>
+	<script type="text/javascript" src="js/jspm/config.js"></script>
 	<script type="text/javascript">
 		System.import('app/main');
 	</script>
+	<!-- endbuild -->
 </head>
 <body>
-	<div ng-controller="TestController" >
-		{{message}}
-	</div>
+	<div ng-include="'app/templates/HelloWorld.html'"></div>
 </body>
 </html>

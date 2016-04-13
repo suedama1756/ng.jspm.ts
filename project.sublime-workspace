@@ -1,0 +1,954 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"templ",
+				"templatesPattern"
+			],
+			[
+				"temp",
+				"templates"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"path",
+				"pathString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/config.js",
+			"settings":
+			{
+				"buffer_size": 1055,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "node_modules/.bin/sassgraph",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/tasks/build/sass.js",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "typings.json",
+			"settings":
+			{
+				"buffer_size": 344,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 8783 files for \"d3/index.d.ts\"\n\nC:\\Work\\ng.jspm.ts\\typings\\browser.d.ts:\n    1  /// <reference path=\"browser/ambient/angular-ui-router/index.d.ts\" />\n    2  /// <reference path=\"browser/ambient/angular/index.d.ts\" />\n    3: /// <reference path=\"browser/ambient/d3/index.d.ts\" />\n    4  /// <reference path=\"browser/ambient/jquery/index.d.ts\" />\n    5: /// <reference path=\"browser/definitions/d3/index.d.ts\" />\n    6  \n\nC:\\Work\\ng.jspm.ts\\typings\\main.d.ts:\n    1  /// <reference path=\"main/ambient/angular-ui-router/index.d.ts\" />\n    2  /// <reference path=\"main/ambient/angular/index.d.ts\" />\n    3: /// <reference path=\"main/ambient/d3/index.d.ts\" />\n    4  /// <reference path=\"main/ambient/jquery/index.d.ts\" />\n    5: /// <reference path=\"main/definitions/d3/index.d.ts\" />\n    6  \n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 825,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "build/tasks/build.js",
+			"settings":
+			{
+				"buffer_size": 268,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/tasks/build/templates.js",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/tasks/bundle.js",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/tasks/clean.js",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/tasks/host.js",
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tsconfig.json",
+			"settings":
+			{
+				"buffer_size": 448,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/tasks/build/tsc.js",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/lib/path-builder.js",
+			"settings":
+			{
+				"buffer_size": 517,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 784.0,
+		"last_filter": "for",
+		"selected_items":
+		[
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"file:mo",
+				"File: Move"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack:up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"find",
+				"TypeScript: Find References"
+			],
+			[
+				"type",
+				"TypeScript: Find References"
+			],
+			[
+				"packa: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 832.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Work/ng.jspm.ts",
+		"/C/Work/ng.jspm.ts/build/lib",
+		"/C/Work/ng.jspm.ts/build/tasks",
+		"/C/Work/ng.jspm.ts/build/tasks/build",
+		"/C/Work/ng.jspm.ts/node_modules/.bin",
+		"/C/Work/ng.jspm.ts/src/js",
+		"/C/Work/ng.jspm.ts/src/js/jspm",
+		"/C/Work/ng.jspm.ts/typings",
+		"/C/Work/ng.jspm.ts/typings/browser",
+		"/C/Work/ng.jspm.ts/typings/browser/ambient",
+		"/C/Work/ng.jspm.ts/typings/main",
+		"/C/Work/ng.jspm.ts/typings/main/ambient"
+	],
+	"file_history":
+	[
+		"/C/Work/ng.jspm.ts/src/js/jspm/config.js",
+		"/C/Work/ng.jspm.ts/build/tasks/clean.js",
+		"/C/Work/ng.jspm.ts/build/tasks/bundle.js",
+		"/C/Work/ng.jspm.ts/build/tasks/build.js",
+		"/C/Work/ng.jspm.ts/build/tasks/build/sass.js",
+		"/C/Work/ng.jspm.ts/build/tasks/build/tsc.js",
+		"/C/Work/ng.jspm.ts/build/tasks/build/templates.js",
+		"/C/Work/ng.jspm.ts/build/lib/path-args.js",
+		"/C/Work/ng.jspm.ts/build/lib/path-builder.js",
+		"/C/Work/ng.jspm.ts/build/config.js",
+		"/C/Work/ng.jspm.ts/build/tasks/host.js",
+		"/C/Work/ng.jspm.ts/typings.json",
+		"/C/Work/ng.jspm.ts/tsconfig.json",
+		"/C/Work/ng.jspm.ts/package.json",
+		"/C/Work/ng.jspm.ts/build/gulpfile.js",
+		"/C/Work/ng.jspm.ts/setup.sh",
+		"/C/Work/ng.jspm.ts/setup.bat",
+		"/C/Work/ng.jspm.ts/build/gulp.bat",
+		"/C/Work/Word2Vec.Net/Data/rus_ksu.txt",
+		"/C/Work/Word2Vec.Net/Data/result_rus_200_vocub.txt",
+		"/C/Work/Word2Vec.Net/README.md",
+		"/C/Work/Word2Vec.Net/Data/text8",
+		"/C/Work/samples/t2speech/t2speech/Program.cs",
+		"/C/work/max/Docs/phenom.test.1.txt",
+		"/C/Temp/Wordnet/dict/index.adj",
+		"/C/Temp/Wordnet/dict/data.adj",
+		"/C/Work/samples/Angular2.Starter/src/main.ts",
+		"/C/Work/samples/Angular2.Starter/src/app/app.spec.ts",
+		"/C/Work/samples/Angular2.Starter/src/app/app.ts",
+		"/C/Work/samples/Angular2.Starter/tsconfig.json",
+		"/C/Work/max/.gitignore",
+		"/C/Work/samples/asp.net.angular/src/asp.net.angular/asp.net.angular.xproj",
+		"/C/Users/youngj/Desktop/SUEPEJG144.txt",
+		"/C/Users/youngj/Downloads/gcm-v1.0.0/install.cmd"
+	],
+	"find":
+	{
+		"height": 64.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"d3/index.d.ts",
+			"sass",
+			"path",
+			"build",
+			"node",
+			"process.cwd()"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "node_modules/.bin/sassgraph",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "build/tasks/build/sass.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "typings.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 825,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										271,
+										284
+									],
+									[
+										403,
+										416
+									],
+									[
+										647,
+										660
+									],
+									[
+										773,
+										786
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Work\\ng.jspm.ts",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "build/tasks/build.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "build/tasks/build/templates.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "build/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "build/tasks/bundle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "build/tasks/clean.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "build/tasks/host.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "tsconfig.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "build/tasks/build/tsc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "build/lib/path-builder.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 198.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sass.js",
+				"build\\tasks\\build\\sass.js"
+			],
+			[
+				"config",
+				"build\\config.js"
+			],
+			[
+				"sass",
+				"node_modules\\.bin\\sassgraph"
+			],
+			[
+				"tscon",
+				"tsconfig.json"
+			],
+			[
+				"bund",
+				"build\\tasks\\bundle.js"
+			],
+			[
+				"build",
+				"build\\tasks\\build.js"
+			],
+			[
+				"gulpfi",
+				"build\\gulpfile.js"
+			],
+			[
+				"templ",
+				"build\\tasks\\build\\templates.js"
+			],
+			[
+				"build.js",
+				"build\\tasks\\build.js"
+			],
+			[
+				"tsc",
+				"build\\tasks\\build\\tsc.js"
+			],
+			[
+				"path-buil",
+				"build\\lib\\path-builder.js"
+			],
+			[
+				"app.ts",
+				"src\\app\\app.ts"
+			],
+			[
+				"main",
+				"src\\main.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 739.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
