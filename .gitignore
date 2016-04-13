@@ -24,3 +24,9 @@ Thumbs.db
 *.swp
 npm-debug.log
 /.tmp
+
+# IDE files          #
+###################### 
+*.sublime-workspace
+
+
