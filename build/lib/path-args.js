@@ -13,6 +13,14 @@ function make(source) {
 
 	}
 
+	arg.asArray = function(name, defaultValue) {
+		var result = arg(name, defaultValue);
+		if (result !== null && typeof result !== 'undefined') {
+			return Array.isArray(result) ? result : [result];
+		}
+		return [];
+	}
+
 	return arg;
 }
 

@@ -10,14 +10,14 @@ var config = require('./config'),
 	'bundle',
 	'test',
 	'clean',
-	'host'
+	'server'
 ].forEach(x => {
 	require('./tasks/' + x)(config);
 });
 
 // confgure default
 gulp.task('default', [
-	'host',
+	'server',
 	'build'
 ]);
 
