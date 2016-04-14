@@ -9,7 +9,7 @@ function tsc(config) {
 		}
 		
 		// execute tsc and pipe output
-		var p = exec(command, config.watch ? cb : () => {});
+		var p = exec(command, config.watch ? () => {} : cb);
 		p.stdout.pipe(process.stdout);
 		p.stderr.pipe(process.stderr);
 		if (config.watch) {
