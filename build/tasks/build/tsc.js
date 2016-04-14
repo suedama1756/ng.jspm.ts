@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 
 function tsc(config) {
 	gulp.task('build:tsc', cb => {
-		var command = 'tsc';
+		var command = config.paths.nodeBin('tsc');
 		if (config.watch) {
 			command += ' --watch';
 		}

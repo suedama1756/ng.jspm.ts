@@ -5,11 +5,11 @@ var pathArgs = require('./lib/path-args'),
 	fs = require('fs');
 
 // define paths used by build
-var rootPath = require('./lib/path-builder')('..');
+var rootPath = require('./lib/path-builder')(__dirname, '..');
 var paths = {
 	root : rootPath,
 	src : rootPath.make('src'),
-	js: rootPath.make('src', 'js'),
+	ts: rootPath.make('src', 'ts'),
 	assets: rootPath.make('src', 'assets'),
 	tmp : rootPath.make('tmp'),
 	jspm : rootPath.make('jspm'),

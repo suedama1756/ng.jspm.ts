@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 
 function templates(config) {
-	var templatesPattern = config.paths.js('**', 'templates', '*.html');
+	var templatesPattern = config.paths.ts('**', 'templates', '*.html');
 
 	gulp.task('build:templates:core', function() {
 		var result = gulp.src(templatesPattern);

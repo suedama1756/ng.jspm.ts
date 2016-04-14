@@ -1,14 +1,15 @@
 var path = require('path');
 
-module.exports = function pathBuilder(pathString) {
-	pathString = path.resolve(path.normalize(pathString));
+module.exports = function pathBuilder(/* pathString... */) {
+    var fullPath = path.join.apply(path, arguments);
+    fullPath = path.resolve(path.normalize(fullPath));
 	var result = function() {
 		if (arguments.length) {
 			var elements = Array.prototype.slice.call(arguments);
-			elements.unshift(pathString);
+			elements.unshift(fullPath);
 			return path.join.apply(path, elements);
 		}
-		return pathString;
+		return fullPath;
 	}
 
 	result.make = function() {
